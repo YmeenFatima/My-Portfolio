@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ymeen Fatima — Backend Developer, Computer Science Student at Superior University, Lahore. Portfolio showcasing projects in Python, C++, SQL, Assembly and full-stack development.">
+    <meta name="keywords" content="Ymeen Fatima, Backend Developer, Computer Science, Python, SQL, C++, Portfolio">
+    <meta name="author" content="Ymeen Fatima">
+    <title>Ymeen Fatima — Backend Developer &amp; CS Student</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- ═══════════════════ NAVBAR ═══════════════════ -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#landing" class="nav-logo">YF</a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#landing" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ═══════════════════ LANDING ═══════════════════ -->
+    <section id="landing" class="section landing-section">
+        <div class="hero-content">
+            <p class="hero-greeting fade-in-up" data-hero-seq="1">Hello, I'm</p>
+            <h1 class="hero-name fade-in-up" data-hero-seq="2">Ymeen Fatima</h1>
+            <p class="hero-designations fade-in-up" data-hero-seq="3">Backend Developer · Computer Science Student · Python &amp; SQL Enthusiast</p>
+            <p class="hero-intro fade-in-up" data-hero-seq="4">I'm a Computer Science undergraduate at Superior University, Lahore, building backend systems, relational databases, and low-level programs — all from scratch. With six independently shipped projects spanning AI chatbots, full-stack banking systems, and Assembly-level games, I bring both breadth and depth to every problem I tackle. I thrive at the intersection of clean architecture and real-world impact, writing code that doesn't just run — it holds up. Currently seeking an internship in backend development or data engineering where I can contribute meaningfully from day one.</p>
+            <div class="hero-cta fade-in-up" data-hero-seq="5">
+                <a href="#about" class="btn-primary">Learn More About Me</a>
+                <a href="#contact" class="btn-secondary">Get In Touch</a>
+            </div>
+            <div class="hero-socials" data-hero-seq="6">
+                <a href="https://github.com/YmeenFatima" target="_blank" rel="noopener noreferrer" class="pop-in" aria-label="GitHub">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                </a>
+                <a href="https://www.linkedin.com/in/ymeen-fatima/" target="_blank" rel="noopener noreferrer" class="pop-in" aria-label="LinkedIn">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                </a>
+                <a href="mailto:ymeenf2310@gmail.com" class="pop-in" aria-label="Email">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════ ABOUT ME ═══════════════════ -->
+    <section id="about" class="section about-section">
+        <div class="section-header">
+            <p class="section-subtitle fade-in-up">Get To Know Me</p>
+            <h2 class="section-title fade-in-up">About Me</h2>
+            <div class="section-line fade-in-up"></div>
+        </div>
+        <div class="about-grid">
+            <div class="about-image-wrapper slide-in-left">
+                <img src="images/ymeen_profile.jpg" alt="Ymeen Fatima — Professional portrait" loading="lazy">
+            </div>
+            <div class="about-text-wrapper">
+                <p class="about-text fade-in-up">I'm Ymeen Fatima, a backend-focused Computer Science student at Superior University, Lahore, with a CGPA of 3.61/4.0 across three completed semesters. My work spans Python, C++, SQL, JavaScript, and even Assembly — not because I had to, but because I wanted to understand systems at every layer. I've designed normalised relational database schemas, built AI-assisted chatbots, implemented data-structure-driven C++ applications, and shipped a fully functional Snake game in COAL assembly. What sets me apart is a rare combination of low-level systems fluency and full-stack thinking — I don't just write features, I think about correctness, data integrity, and scale from the start. Outside the classroom, I've voluntarily attended four professional development workshops through the CS Club SkillSprint programme, and I'm always looking for the next hard problem to solve.</p>
+                <div class="mission-vision-cards">
+                    <div class="mv-card flip-in">
+                        <div class="mv-icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
+                        </div>
+                        <h4>Mission</h4>
+                        <p>To build backend systems that are reliable, efficient, and built to last — writing code that solves real problems and holds up under pressure.</p>
+                    </div>
+                    <div class="mv-card flip-in" style="transition-delay: 0.2s;">
+                        <div class="mv-icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+                        </div>
+                        <h4>Vision</h4>
+                        <p>To grow into a backend or data engineer who bridges the gap between low-level systems thinking and modern scalable architecture, contributing to products that matter.</p>
+                    </div>
+                </div>
+                <div class="about-buttons" data-stagger>
+                    <a href="#education" class="about-btn fade-in-up">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 1.66 2.69 3 6 3s6-1.34 6-3v-5"/></svg>
+                        Education
+                    </a>
+                    <a href="#projects" class="about-btn fade-in-up">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                        Projects
+                    </a>
+                    <a href="#skills" class="about-btn fade-in-up">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        Skills
+                    </a>
+                    <a href="#certifications" class="about-btn fade-in-up">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M2 20h20"/></svg>
+                        Certifications
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════ EDUCATION ═══════════════════ -->
+    <section id="education" class="section education-section">
+        <div class="section-header">
+            <p class="section-subtitle fade-in-up">My Academic Journey</p>
+            <h2 class="section-title fade-in-up">Education</h2>
+            <div class="section-line fade-in-up"></div>
+        </div>
+        <div class="education-card drop-in">
+            <div class="education-header">
+                <div class="education-icon">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 1.66 2.69 3 6 3s6-1.34 6-3v-5"/></svg>
+                </div>
+                <div class="education-header-text">
+                    <h3 class="education-title">Bachelor of Science in Computer Science</h3>
+                    <p class="education-institution">Superior University, Lahore (Gold Campus)</p>
+                    <div class="education-meta">
+                        <span class="meta-item">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                            September 2024 – June 2028 (Expected)
+                        </span>
+                        <span class="meta-item">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                            Full-time
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="education-body">
+                <div class="cgpa-section">
+                    <div class="cgpa-highlight">
+                        <span class="cgpa-number">3.61</span>
+                        <span class="cgpa-suffix"> / 4.0</span>
+                    </div>
+                    <p class="cgpa-note">Current Cumulative CGPA (after 3 completed semesters; results for 4th semester pending)</p>
+                </div>
+
+                <div class="semester-breakdown">
+                    <h4 class="breakdown-title">Semester Breakdown</h4>
+                    <div class="semester-bars">
+                        <div class="semester-item">
+                            <div class="semester-label">
+                                <span>Semester 1</span>
+                                <span class="semester-gpa">GPA 3.64</span>
+                            </div>
+                            <div class="semester-bar">
+                                <div class="semester-bar-fill" data-percent="91"></div>
+                            </div>
+                        </div>
+                        <div class="semester-item">
+                            <div class="semester-label">
+                                <span>Semester 2</span>
+                                <span class="semester-gpa">GPA 3.40 → CGPA 3.52</span>
+                            </div>
+                            <div class="semester-bar">
+                                <div class="semester-bar-fill" data-percent="85"></div>
+                            </div>
+                        </div>
+                        <div class="semester-item">
+                            <div class="semester-label">
+                                <span>Semester 3</span>
+                                <span class="semester-gpa">GPA 3.78 → CGPA 3.61</span>
+                            </div>
+                            <div class="semester-bar">
+                                <div class="semester-bar-fill" data-percent="94.5"></div>
+                            </div>
+                        </div>
+                        <div class="semester-item">
+                            <div class="semester-label">
+                                <span>Semester 4</span>
+                                <span class="semester-gpa semester-pending">Completed, results awaited</span>
+                            </div>
+                            <div class="semester-bar">
+                                <div class="semester-bar-fill semester-bar-pending" data-percent="0"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="key-highlights">
+                    <h4 class="breakdown-title">Key Highlights</h4>
+                    <ul>
+                        <li class="typewriter">Core coursework: OOP, Data Structures &amp; Algorithms, Database Design &amp; Normalisation, Software Engineering, ICT</li>
+                        <li class="typewriter">Actively engaged in the CS Club SkillSprint professional development programme</li>
+                        <li class="typewriter">Maintained consistently upward GPA trajectory across semesters</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════ PROJECTS ═══════════════════ -->
+    <section id="projects" class="section projects-section">
+        <div class="section-header">
+            <p class="section-subtitle fade-in-up">What I've Built</p>
+            <h2 class="section-title fade-in-up">Projects</h2>
+            <div class="section-line fade-in-up"></div>
+        </div>
+
+        <!-- Project 1 -->
+        <div class="project-card">
+            <div class="project-left slide-in-blur">
+                <span class="project-number">01</span>
+                <span class="project-type-badge">AI / Python</span>
+                <h3 class="project-title">Medical Assistant Chatbot</h3>
+                <a href="https://github.com/YmeenFatima/check-my-well-" target="_blank" rel="noopener noreferrer" class="project-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                    View on GitHub
+                </a>
+            </div>
+            <div class="project-right fade-in-delay">
+                <p class="project-description">An AI-powered chatbot that guides users through symptom identification and returns structured medical guidance. Implements rule-based and ML-assisted decision logic covering approximately 20 query categories, with all responses following a defined safety-first template.</p>
+                <div class="project-outcomes" data-stagger>
+                    <div class="outcome-item fade-in-up">Designed a complete response taxonomy covering 20+ medical query categories</div>
+                    <div class="outcome-item fade-in-up">Applied Python ML libraries to a real-world healthcare domain</div>
+                    <div class="outcome-item fade-in-up">Enforced a safety-first response template across all outputs</div>
+                    <div class="outcome-item fade-in-up">Demonstrated end-to-end AI problem scoping and implementation</div>
+                </div>
+                <div class="project-tech" data-stagger>
+                    <span class="tech-pill">Python</span>
+                    <span class="tech-pill">Machine Learning</span>
+                    <span class="tech-pill">NLP</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+            <div class="project-left slide-in-blur">
+                <span class="project-number">02</span>
+                <span class="project-type-badge">Dynamic Web App / JavaScript</span>
+                <h3 class="project-title">CV Generator</h3>
+                <a href="https://github.com/YmeenFatima/CVgenerator" target="_blank" rel="noopener noreferrer" class="project-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                    View on GitHub
+                </a>
+            </div>
+            <div class="project-right fade-in-delay">
+                <p class="project-description">A fully dynamic web application that renders a formatted, printable CV from user input in real time using DOM manipulation. Zero backend dependency — all formatting logic runs entirely client-side.</p>
+                <div class="project-outcomes" data-stagger>
+                    <div class="outcome-item fade-in-up">Built entirely client-side with zero backend dependency</div>
+                    <div class="outcome-item fade-in-up">Real-time DOM manipulation for live CV rendering</div>
+                    <div class="outcome-item fade-in-up">Print-ready output generated dynamically from user input</div>
+                    <div class="outcome-item fade-in-up">Demonstrates solid JavaScript fundamentals and UI thinking</div>
+                </div>
+                <div class="project-tech" data-stagger>
+                    <span class="tech-pill">JavaScript</span>
+                    <span class="tech-pill">HTML</span>
+                    <span class="tech-pill">CSS</span>
+                    <span class="tech-pill">DOM Manipulation</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card">
+            <div class="project-left slide-in-blur">
+                <span class="project-number">03</span>
+                <span class="project-type-badge">Full Stack / SQL + JavaScript</span>
+                <h3 class="project-title">Banking System</h3>
+                <a href="https://github.com/YmeenFatima/BankingSystem" target="_blank" rel="noopener noreferrer" class="project-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                    View on GitHub
+                </a>
+            </div>
+            <div class="project-right fade-in-delay">
+                <p class="project-description">A full-stack banking application with a normalised relational database schema — 5 tables: users, accounts, transactions, branches, and audit_log — with enforced referential integrity. The frontend enables real-time CRUD operations against the backend, handling concurrent balance updates without data anomalies.</p>
+                <div class="project-outcomes" data-stagger>
+                    <div class="outcome-item fade-in-up">Designed a 5-table normalised schema with full referential integrity</div>
+                    <div class="outcome-item fade-in-up">Handled concurrent balance updates without data anomalies</div>
+                    <div class="outcome-item fade-in-up">Built real-time CRUD frontend integrated with SQL backend</div>
+                    <div class="outcome-item fade-in-up">Demonstrates full-stack thinking and data-integrity discipline</div>
+                </div>
+                <div class="project-tech" data-stagger>
+                    <span class="tech-pill">SQL</span>
+                    <span class="tech-pill">JavaScript</span>
+                    <span class="tech-pill">HTML</span>
+                    <span class="tech-pill">CSS</span>
+                    <span class="tech-pill">Database Design</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-card">
+            <div class="project-left slide-in-blur">
+                <span class="project-number">04</span>
+                <span class="project-type-badge">Data Structures / C++</span>
+                <h3 class="project-title">Library Management System</h3>
+                <a href="https://github.com/YmeenFatima/LibraryManagement" target="_blank" rel="noopener noreferrer" class="project-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                    View on GitHub
+                </a>
+            </div>
+            <div class="project-right fade-in-delay">
+                <p class="project-description">A C++ application using linked lists, binary trees, and search algorithms to manage book records and borrowing operations for a simulated 1,000-item catalogue. Data structures were selected deliberately to achieve O(log n) search on sorted records versus O(n) for sequential scans.</p>
+                <div class="project-outcomes" data-stagger>
+                    <div class="outcome-item fade-in-up">Managed a simulated catalogue of 1,000 items</div>
+                    <div class="outcome-item fade-in-up">Achieved O(log n) search performance using binary trees</div>
+                    <div class="outcome-item fade-in-up">Deliberate data structure selection over naive alternatives</div>
+                    <div class="outcome-item fade-in-up">Demonstrates algorithmic thinking and C++ systems proficiency</div>
+                </div>
+                <div class="project-tech" data-stagger>
+                    <span class="tech-pill">C++</span>
+                    <span class="tech-pill">Data Structures</span>
+                    <span class="tech-pill">Algorithms</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="project-card">
+            <div class="project-left slide-in-blur">
+                <span class="project-number">05</span>
+                <span class="project-type-badge">OOP / C++</span>
+                <h3 class="project-title">Hospital Management System</h3>
+                <a href="https://github.com/YmeenFatima/HospitalManagement" target="_blank" rel="noopener noreferrer" class="project-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                    View on GitHub
+                </a>
+            </div>
+            <div class="project-right fade-in-delay">
+                <p class="project-description">Modelled patients, doctors, and appointments using class hierarchies, inheritance, and polymorphism across 8 interacting classes. System correctness was validated against 50+ simulated patient records with no scheduling conflicts or data corruption observed.</p>
+                <div class="project-outcomes" data-stagger>
+                    <div class="outcome-item fade-in-up">Modelled 8 interacting classes using OOP principles</div>
+                    <div class="outcome-item fade-in-up">Validated against 50+ simulated patient records</div>
+                    <div class="outcome-item fade-in-up">Zero scheduling conflicts or data corruption in all tested scenarios</div>
+                    <div class="outcome-item fade-in-up">Demonstrates rigorous OOP design and system correctness thinking</div>
+                </div>
+                <div class="project-tech" data-stagger>
+                    <span class="tech-pill">C++</span>
+                    <span class="tech-pill">OOP</span>
+                    <span class="tech-pill">Class Hierarchies</span>
+                    <span class="tech-pill">Polymorphism</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 6 -->
+        <div class="project-card">
+            <div class="project-left slide-in-blur">
+                <span class="project-number">06</span>
+                <span class="project-type-badge">Low-Level Systems / COAL</span>
+                <h3 class="project-title">Snake Game (Assembly)</h3>
+                <a href="https://github.com/YmeenFatima/SnakeGame" target="_blank" rel="noopener noreferrer" class="project-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                    View on GitHub
+                </a>
+            </div>
+            <div class="project-right fade-in-delay">
+                <p class="project-description">A fully functional Snake game implemented at assembly language level — direct register manipulation, interrupt-driven input, and manual memory management. One of very few undergraduates to complete a real-time game in COAL.</p>
+                <div class="project-outcomes" data-stagger>
+                    <div class="outcome-item fade-in-up">Implemented real-time game logic entirely in Assembly (COAL)</div>
+                    <div class="outcome-item fade-in-up">Used interrupt-driven input and direct register manipulation</div>
+                    <div class="outcome-item fade-in-up">Manual memory management with no runtime errors</div>
+                    <div class="outcome-item fade-in-up">Demonstrates rare low-level systems fluency at undergraduate level</div>
+                </div>
+                <div class="project-tech" data-stagger>
+                    <span class="tech-pill">Assembly (COAL)</span>
+                    <span class="tech-pill">Low-Level Programming</span>
+                    <span class="tech-pill">Memory Management</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════ SKILLS ═══════════════════ -->
+    <section id="skills" class="section skills-section">
+        <div class="section-header">
+            <p class="section-subtitle fade-in-up">What I Work With</p>
+            <h2 class="section-title fade-in-up">Skills</h2>
+            <div class="section-line fade-in-up"></div>
+        </div>
+        <div class="skills-grid">
+            <!-- Languages -->
+            <div class="skill-category-card scale-in">
+                <div class="category-icon">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                </div>
+                <h3 class="category-title">Languages</h3>
+                <div class="skill-item">
+                    <div class="skill-info"><span class="skill-name">Python</span><span class="skill-percent" data-target="80">0%</span></div>
+                    <div class="skill-bar"><div class="skill-bar-fill" data-percent="80"></div></div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info"><span class="skill-name">C++</span><span class="skill-percent" data-target="78">0%</span></div>
+                    <div class="skill-bar"><div class="skill-bar-fill" data-percent="78"></div></div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info"><span class="skill-name">JavaScript</span><span class="skill-percent" data-target="75">0%</span></div>
+                    <div class="skill-bar"><div class="skill-bar-fill" data-percent="75"></div></div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info"><span class="skill-name">SQL / MySQL</span><span class="skill-percent" data-target="82">0%</span></div>
+                    <div class="skill-bar"><div class="skill-bar-fill" data-percent="82"></div></div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info"><span class="skill-name">Assembly (COAL)</span><span class="skill-percent" data-target="70">0%</span></div>
+                    <div class="skill-bar"><div class="skill-bar-fill" data-percent="70"></div></div>
+                </div>
+            </div>
+
+            <!-- Web & UI -->
+            <div class="skill-category-card scale-in">
+                <div class="category-icon">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                </div>
+                <h3 class="category-title">Web &amp; UI</h3>
+                <div class="skill-item">
+                    <div class="skill-info"><span class="skill-name">HTML &amp; CSS</span><span class="skill-percent" data-target="80">0%</span></div>
+                    <div class="skill-bar"><div class="skill-bar-fill" data-percent="80"></div></div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info"><span class="skill-name">DOM Manipulation</span><span class="skill-percent" data-target="75">0%</span></div>
+                    <div class="skill-bar"><div class="skill-bar-fill" data-percent="75"></div></div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info"><span class="skill-name">UI/UX Fundamentals</span><span class="skill-percent" data-target="70">0%</span></div>
+                    <div class="skill-bar"><div class="skill-bar-fill" data-percent="70"></div></div>
+                </div>
+            </div>
+
+            <!-- Database & Backend -->
+            <div class="skill-category-card scale-in">
+                <div class="category-icon">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+                </div>
+                <h3 class="category-title">Database &amp; Backend</h3>
+                <div class="skill-item">
+                    <div class="skill-info"><span class="skill-name">Database Design &amp; Normalisation</span><span class="skill-percent" data-target="83">0%</span></div>
+                    <div class="skill-bar"><div class="skill-bar-fill" data-percent="83"></div></div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info"><span class="skill-name">Schema Design</span><span class="skill-percent" data-target="80">0%</span></div>
+                    <div class="skill-bar"><div class="skill-bar-fill" data-percent="80"></div></div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info"><span class="skill-name">CRUD Operations</span><span class="skill-percent" data-target="78">0%</span></div>
+                    <div class="skill-bar"><div class="skill-bar-fill" data-percent="78"></div></div>
+                </div>
+            </div>
+
+            <!-- CS Fundamentals -->
+            <div class="skill-category-card scale-in">
+                <div class="category-icon">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2" ry="2"/><rect x="9" y="9" width="6" height="6"/><line x1="9" y1="1" x2="9" y2="4"/><line x1="15" y1="1" x2="15" y2="4"/><line x1="9" y1="20" x2="9" y2="23"/><line x1="15" y1="20" x2="15" y2="23"/><line x1="20" y1="9" x2="23" y2="9"/><line x1="20" y1="14" x2="23" y2="14"/><line x1="1" y1="9" x2="4" y2="9"/><line x1="1" y1="14" x2="4" y2="14"/></svg>
+                </div>
+                <h3 class="category-title">CS Fundamentals</h3>
+                <div class="skill-item">
+                    <div class="skill-info"><span class="skill-name">Data Structures &amp; Algorithms</span><span class="skill-percent" data-target="80">0%</span></div>
+                    <div class="skill-bar"><div class="skill-bar-fill" data-percent="80"></div></div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info"><span class="skill-name">Object-Oriented Programming</span><span class="skill-percent" data-target="82">0%</span></div>
+                    <div class="skill-bar"><div class="skill-bar-fill" data-percent="82"></div></div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info"><span class="skill-name">Software Engineering</span><span class="skill-percent" data-target="75">0%</span></div>
+                    <div class="skill-bar"><div class="skill-bar-fill" data-percent="75"></div></div>
+                </div>
+            </div>
+
+            <!-- Tools & Practices -->
+            <div class="skill-category-card scale-in">
+                <div class="category-icon">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+                </div>
+                <h3 class="category-title">Tools &amp; Practices</h3>
+                <div class="skill-item">
+                    <div class="skill-info"><span class="skill-name">Git &amp; GitHub</span><span class="skill-percent" data-target="78">0%</span></div>
+                    <div class="skill-bar"><div class="skill-bar-fill" data-percent="78"></div></div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info"><span class="skill-name">Digital Marketing &amp; SEO</span><span class="skill-percent" data-target="65">0%</span></div>
+                    <div class="skill-bar"><div class="skill-bar-fill" data-percent="65"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════ CERTIFICATIONS ═══════════════════ -->
+    <section id="certifications" class="section certifications-section">
+        <div class="section-header">
+            <p class="section-subtitle fade-in-up">Credentials</p>
+            <h2 class="section-title fade-in-up">Certifications</h2>
+            <div class="section-line fade-in-up"></div>
+        </div>
+        <div class="cert-grid">
+            <div class="cert-card cascade-in" style="--initial-rotation: -1.5deg;">
+                <div class="cert-image-wrapper">
+                    <img src="images/certificates/sololearn_database.jpg" alt="Database Management Certification — Sololearn" loading="lazy">
+                </div>
+                <div class="cert-info">
+                    <h3 class="cert-name">Database Management Certification</h3>
+                    <p class="cert-provider">Sololearn</p>
+                    <p class="cert-year">2025</p>
+                </div>
+            </div>
+            <div class="cert-card cascade-in" style="--initial-rotation: 1deg;">
+                <div class="cert-image-wrapper">
+                    <img src="images/certificates/webdev_workshop.jpg" alt="Web Application Development Workshop — CS Club SkillSprint" loading="lazy">
+                </div>
+                <div class="cert-info">
+                    <h3 class="cert-name">Web Application Development Workshop</h3>
+                    <p class="cert-provider">CS Club SkillSprint · Superior University</p>
+                    <p class="cert-year">2024</p>
+                </div>
+            </div>
+            <div class="cert-card cascade-in" style="--initial-rotation: -0.8deg;">
+                <div class="cert-image-wrapper">
+                    <img src="images/certificates/uiux_workshop.jpg" alt="UI/UX Design Workshop — CS Club SkillSprint" loading="lazy">
+                </div>
+                <div class="cert-info">
+                    <h3 class="cert-name">UI/UX Design Workshop</h3>
+                    <p class="cert-provider">CS Club SkillSprint · Superior University</p>
+                    <p class="cert-year">2024</p>
+                </div>
+            </div>
+            <div class="cert-card cascade-in" style="--initial-rotation: 1.8deg;">
+                <div class="cert-image-wrapper">
+                    <img src="images/certificates/linkedin_workshop.jpg" alt="LinkedIn Optimisation Workshop — CS Club SkillSprint" loading="lazy">
+                </div>
+                <div class="cert-info">
+                    <h3 class="cert-name">LinkedIn Optimisation Workshop</h3>
+                    <p class="cert-provider">CS Club SkillSprint · Superior University</p>
+                    <p class="cert-year">2024</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════ ACHIEVEMENTS ═══════════════════ -->
+    <section id="achievements" class="section achievements-section">
+        <div class="section-header">
+            <p class="section-subtitle fade-in-up">Milestones from my academic journey and beyond.</p>
+            <h2 class="section-title fade-in-up">Achievements &amp; Recognition</h2>
+            <div class="section-line fade-in-up"></div>
+        </div>
+        <div class="stats-bar">
+            <div class="stat-item fade-in-up">
+                <span class="stat-number" data-target="1" data-suffix="+">0</span>
+                <span class="stat-label">Years Experience</span>
+            </div>
+            <div class="stat-item fade-in-up">
+                <span class="stat-number" data-target="4" data-suffix="+">0</span>
+                <span class="stat-label">Certifications</span>
+            </div>
+            <div class="stat-item fade-in-up">
+                <span class="stat-number" data-target="6" data-suffix="">0</span>
+                <span class="stat-label">Projects</span>
+            </div>
+            <div class="stat-item fade-in-up">
+                <span class="stat-number" data-target="4" data-suffix="+">0</span>
+                <span class="stat-label">Workshops</span>
+            </div>
+        </div>
+
+        <div class="achievements-grid">
+            <div class="achievement-card zoom-in-bounce">
+                <span class="achievement-badge badge-academic badge-pop">Academic</span>
+                <p class="achievement-year">2024–2025</p>
+                <h3 class="achievement-title">CGPA 3.61 / 4.0 — Three Semesters Completed</h3>
+                <p class="achievement-institution">Superior University, Lahore</p>
+                <p class="achievement-description">Maintained a strong and upward academic trajectory across three completed semesters (GPA: 3.64 → 3.40 → 3.78), balancing coursework with six independent project builds and four professional development workshops. 4th semester completed, results pending.</p>
+            </div>
+            <div class="achievement-card zoom-in-bounce">
+                <span class="achievement-badge badge-academic badge-pop">Academic</span>
+                <p class="achievement-year">2024–2025</p>
+                <h3 class="achievement-title">CS Club SkillSprint — Active Participant</h3>
+                <p class="achievement-institution">Superior University, Lahore</p>
+                <p class="achievement-description">Voluntarily attended four professional development workshops (Web Dev, UI/UX, Database Management, LinkedIn Optimisation) beyond classroom requirements, demonstrating consistent initiative and a growth mindset.</p>
+            </div>
+            <div class="achievement-card zoom-in-bounce">
+                <span class="achievement-badge badge-technical badge-pop">Technical</span>
+                <p class="achievement-year">2025</p>
+                <h3 class="achievement-title">Assembly-Level Game — Snake in COAL</h3>
+                <p class="achievement-institution">Self-directed</p>
+                <p class="achievement-description">Completed a fully functional Snake game in Assembly language — one of very few undergraduates to achieve this. Demonstrates rare low-level systems fluency that most students never attempt.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════ CONTACT ═══════════════════ -->
+    <section id="contact" class="section contact-section">
+        <div class="section-header">
+            <p class="section-subtitle fade-in-up">Get In Touch</p>
+            <h2 class="section-title fade-in-up">Let's Build Something Together</h2>
+            <div class="section-line fade-in-up"></div>
+        </div>
+        <div class="contact-grid">
+            <!-- Left: Form -->
+            <div class="contact-form-card slide-in-angle-left">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="contactName" name="name" placeholder=" " required>
+                        <label for="contactName">Full Name</label>
+                        <span class="form-underline"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="contactEmail" name="email" placeholder=" " required>
+                        <label for="contactEmail">Email Address</label>
+                        <span class="form-underline"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="contactSubject" name="subject" placeholder=" " required>
+                        <label for="contactSubject">Subject</label>
+                        <span class="form-underline"></span>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="contactMessage" name="message" placeholder=" " rows="5" required></textarea>
+                        <label for="contactMessage">Message</label>
+                        <span class="form-underline"></span>
+                    </div>
+                    <button type="submit" class="send-btn" id="sendBtn">
+                        <span class="btn-text">Send Message</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                    </button>
+                </form>
+            </div>
+
+            <!-- Right: Contact Info -->
+            <div class="contact-info-panel slide-in-angle-right">
+                <h3 class="contact-info-heading">Contact Information</h3>
+                <p class="contact-info-subtext">Feel free to reach out through any of these channels.</p>
+
+                <div class="contact-info-item">
+                    <div class="contact-icon">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                    </div>
+                    <div class="contact-text"><a href="mailto:ymeenf2310@gmail.com">ymeenf2310@gmail.com</a></div>
+                </div>
+                <div class="contact-info-item">
+                    <div class="contact-icon">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                    </div>
+                    <div class="contact-text">0306-3244462</div>
+                </div>
+                <div class="contact-info-item">
+                    <div class="contact-icon">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                    </div>
+                    <div class="contact-text">Lahore, Pakistan</div>
+                </div>
+                <div class="contact-info-item">
+                    <div class="contact-icon">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                    </div>
+                    <div class="contact-text"><a href="https://www.linkedin.com/in/ymeen-fatima/" target="_blank" rel="noopener noreferrer">linkedin.com/in/ymeen-fatima</a></div>
+                </div>
+                <div class="contact-info-item">
+                    <div class="contact-icon">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                    </div>
+                    <div class="contact-text"><a href="https://github.com/YmeenFatima" target="_blank" rel="noopener noreferrer">github.com/YmeenFatima</a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════ FOOTER ═══════════════════ -->
+    <footer class="footer">
+        <h3 class="footer-name">Ymeen Fatima</h3>
+        <p class="footer-tagline">"Building backends, one clean schema at a time."</p>
+        <div class="footer-socials">
+            <a href="https://github.com/YmeenFatima" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/ymeen-fatima/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="mailto:ymeenf2310@gmail.com" aria-label="Email">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </a>
+        </div>
+        <p class="footer-copyright">&copy; 2025 Ymeen Fatima. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
