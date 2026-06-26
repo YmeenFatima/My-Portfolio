@@ -38,7 +38,7 @@ https://ymeenfatima.github.io/My-Portfolio/
 
 ### About Section
 
-![About Section](assets/about.jpeg)
+![About Section](assets/aboutMe.jpeg)
 
 ### Projects Section
 
