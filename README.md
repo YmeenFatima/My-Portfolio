@@ -34,15 +34,15 @@ https://ymeenfatima.github.io/My-Portfolio/
 
 ### Home Page
 
-![Home Page](assets/portfolio-home.png)
+![Home Page](assets/home.jpeg)
 
 ### About Section
 
-![About Section](assets/about.png)
+![About Section](assets/about.jpeg)
 
 ### Projects Section
 
-![Projects Section](assets/projects.png)
+![Projects Section](assets/projects.jpeg)
 
 ---
 
